@@ -1,0 +1,15 @@
+C:\Users\aimbutkkk\Documents\juanst07\gerenciador-tarefas\gerenciador-tarefas\bin\Debug\net9.0\gerenciador-tarefas.exe
+C:\Users\aimbutkkk\Documents\juanst07\gerenciador-tarefas\gerenciador-tarefas\bin\Debug\net9.0\gerenciador-tarefas.deps.json
+C:\Users\aimbutkkk\Documents\juanst07\gerenciador-tarefas\gerenciador-tarefas\bin\Debug\net9.0\gerenciador-tarefas.runtimeconfig.json
+C:\Users\aimbutkkk\Documents\juanst07\gerenciador-tarefas\gerenciador-tarefas\bin\Debug\net9.0\gerenciador-tarefas.dll
+C:\Users\aimbutkkk\Documents\juanst07\gerenciador-tarefas\gerenciador-tarefas\bin\Debug\net9.0\gerenciador-tarefas.pdb
+C:\Users\aimbutkkk\Documents\juanst07\gerenciador-tarefas\gerenciador-tarefas\obj\Debug\net9.0\gerenciador-tarefas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aimbutkkk\Documents\juanst07\gerenciador-tarefas\gerenciador-tarefas\obj\Debug\net9.0\gerenciador-tarefas.AssemblyInfoInputs.cache
+C:\Users\aimbutkkk\Documents\juanst07\gerenciador-tarefas\gerenciador-tarefas\obj\Debug\net9.0\gerenciador-tarefas.AssemblyInfo.cs
+C:\Users\aimbutkkk\Documents\juanst07\gerenciador-tarefas\gerenciador-tarefas\obj\Debug\net9.0\gerenciador-tarefas.csproj.CoreCompileInputs.cache
+C:\Users\aimbutkkk\Documents\juanst07\gerenciador-tarefas\gerenciador-tarefas\obj\Debug\net9.0\gerenciador-tarefas.sourcelink.json
+C:\Users\aimbutkkk\Documents\juanst07\gerenciador-tarefas\gerenciador-tarefas\obj\Debug\net9.0\gerenciador-tarefas.dll
+C:\Users\aimbutkkk\Documents\juanst07\gerenciador-tarefas\gerenciador-tarefas\obj\Debug\net9.0\refint\gerenciador-tarefas.dll
+C:\Users\aimbutkkk\Documents\juanst07\gerenciador-tarefas\gerenciador-tarefas\obj\Debug\net9.0\gerenciador-tarefas.pdb
+C:\Users\aimbutkkk\Documents\juanst07\gerenciador-tarefas\gerenciador-tarefas\obj\Debug\net9.0\gerenciador-tarefas.genruntimeconfig.cache
+C:\Users\aimbutkkk\Documents\juanst07\gerenciador-tarefas\gerenciador-tarefas\obj\Debug\net9.0\ref\gerenciador-tarefas.dll
