@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aimbutkkk\\Documents\\juanst07\\gerenciador-tarefas\\gerenciador-tarefas\\gerenciador-tarefas.csproj": {}
+    "C:\\Users\\Alunos\\Documents\\juanst07\\gerenciador-tarefas\\gerenciador-tarefas\\gerenciador-tarefas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aimbutkkk\\Documents\\juanst07\\gerenciador-tarefas\\gerenciador-tarefas\\gerenciador-tarefas.csproj": {
+    "C:\\Users\\Alunos\\Documents\\juanst07\\gerenciador-tarefas\\gerenciador-tarefas\\gerenciador-tarefas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aimbutkkk\\Documents\\juanst07\\gerenciador-tarefas\\gerenciador-tarefas\\gerenciador-tarefas.csproj",
+        "projectUniqueName": "C:\\Users\\Alunos\\Documents\\juanst07\\gerenciador-tarefas\\gerenciador-tarefas\\gerenciador-tarefas.csproj",
         "projectName": "gerenciador-tarefas",
-        "projectPath": "C:\\Users\\aimbutkkk\\Documents\\juanst07\\gerenciador-tarefas\\gerenciador-tarefas\\gerenciador-tarefas.csproj",
-        "packagesPath": "C:\\Users\\aimbutkkk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aimbutkkk\\Documents\\juanst07\\gerenciador-tarefas\\gerenciador-tarefas\\obj\\",
+        "projectPath": "C:\\Users\\Alunos\\Documents\\juanst07\\gerenciador-tarefas\\gerenciador-tarefas\\gerenciador-tarefas.csproj",
+        "packagesPath": "C:\\Users\\Alunos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alunos\\Documents\\juanst07\\gerenciador-tarefas\\gerenciador-tarefas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aimbutkkk\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Alunos\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

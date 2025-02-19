@@ -1,61 +1,53 @@
-﻿using System;
+﻿using System.ComponentModel.Design;
+using GerenciarTarefas;
+using Layout;
 
-namespace SistemaDeTarefas
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            int opcao;
-            do
+
+int opcao;
+Gerenciador gerenciador = new Gerenciador();
+inicio:
+            Formatacao.ImprimirCabeçalho();
+            Console.WriteLine("\t1 - Adicionar Tarefa");
+            Console.WriteLine("\t2 - Listar Tarefas");
+            Console.WriteLine("\t3 - Concluir Tarefa");
+            Console.WriteLine("\t4 - Remover Tarefa");
+            Console.WriteLine("\t0 - Sair");
+            Console.Write("\tEscolha uma opção: ");
+            opcao = int.Parse(Console.ReadLine());
+
+            switch (opcao)
             {
-                Layout.Formatação.ImprimirCabecalho();
-                Layout.Formatação.Cor("Escolha uma opção:", "branco");
-                Layout.Formatação.Cor("1 - Adicionar Tarefa", "branco");
-                Layout.Formatação.Cor("2 - Listar Tarefas", "branco");
-                Layout.Formatação.Cor("3 - Concluir Tarefa", "branco");
-                Layout.Formatação.Cor("4 - Remover Tarefa", "branco");
-                Layout.Formatação.Cor("5 - Sair", "branco");
-
-                opcao = int.Parse(Console.ReadLine());
-
-                switch (opcao)
-                {
-                    case 1:
-                        Layout.Formatação.Cor("Digite a descrição da tarefa:", "branco");
-                        string descricao = Console.ReadLine();
-                        GerenciarTarefa.Gerenciador.AdicionarTarefa(descricao);
-                        break;
-
-                    case 2:
-                        GerenciarTarefa.Gerenciador.ListarTarefa();
-                        break;
-
-                    case 3:
-                        Layout.Formatação.Cor("Digite o ID da tarefa a concluir:", "branco");
-                        int idConcluir = int.Parse(Console.ReadLine());
-                        GerenciarTarefa.Gerenciador.ConcluirTarefa(idConcluir);
-                        break;
-
-                    case 4:
-                        Layout.Formatação.Cor("Digite o ID da tarefa a remover:", "branco");
-                        int idRemover = int.Parse(Console.ReadLine());
-                        GerenciarTarefa.Gerenciador.RemoverTarefa(idRemover);
-                        break;
-
-                    case 5:
-                        Layout.Formatação.Cor("Saindo...", "vermelho");
-                        break;
-
-                    default:
-                        Layout.Formatação.Cor("Opção inválida!", "vermelho");
-                        break;
-                }
-
-                Console.WriteLine("\nPressione qualquer tecla para continuar...");
-                Console.ReadKey();
+                case 1:
                 Console.Clear();
-            } while (opcao != 5);
-        }
-    }
-}
+                    Console.Write("\tDigite a descrição da tarefa: ");
+                    string descricao = Console.ReadLine();
+                    Console.Clear();
+                    gerenciador.AdicionarTarefa(descricao);
+                    goto inicio;
+                case 2:
+                Console.Clear();
+                    gerenciador.ListarTarefa();
+                    goto inicio;
+                case 3:
+                    Console.Clear();
+                    gerenciador.ListarTarefa();
+                    Console.Write("\n\tDigite o ID da tarefa a ser concluída: ");
+                    int idTarefa = int.Parse(Console.ReadLine());
+                    Console.Clear();
+                    gerenciador.ConcluirTarefa(idTarefa);
+                    goto inicio;
+                case 4:
+                    Console.Clear();
+                    gerenciador.ListarTarefa();
+                    Console.Write("\n\tDigite o ID da tarefa a ser removida: ");
+                    int idRemover = int.Parse(Console.ReadLine());
+                    Console.Clear();
+                    gerenciador.RemoverTarefa(idRemover);
+                    goto inicio;
+                case 0:
+                    gerenciador.Sair();
+                    break;
+                default:
+                    Console.WriteLine("Opção inválida.");
+                    break;
+            }

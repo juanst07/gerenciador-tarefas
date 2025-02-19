@@ -1,39 +1,24 @@
-using System;
-
 namespace Layout
 {
-    public class Formatação
-    {
-        public static void Cor(string mensagem, string cor)
+   class Formatacao
+   {
+        public static void Cor(string mensagem, ConsoleColor cor)
         {
-            switch (cor.ToLower())
-            {
-                case "branco":
-                    Console.ForegroundColor = ConsoleColor.White;
-                    break;
-                case "verde":
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    break;
-                case "amarelo":
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-                    break;
-                case "vermelho":
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    break;
-                default:
-                    Console.ForegroundColor = ConsoleColor.White;
-                    break;
-            }
-
+            Console.ForegroundColor = cor;
             Console.WriteLine(mensagem);
             Console.ResetColor();
+
+            // Console.ForegroundColor = ConsoleColor.Green;
+            // Console.ForegroundColor = ConsoleColor.White;
+            // Console.ForegroundColor = ConsoleColor.Yellow;
+            // Console.ForegroundColor = ConsoleColor.Red;
+        }
+        public static void ImprimirCabeçalho()
+        {
+            Console.WriteLine("\t\t\t\t╔════════════════════════════════════╗");
+            Console.WriteLine("\t\t\t\t║       GERENCIADOR DE TAREFAS       ║");
+            Console.WriteLine("\t\t\t\t╚════════════════════════════════════╝\n");
         }
 
-        public static void ImprimirCabecalho()
-        {
-            Cor("=======================================", "amarelo");
-            Cor("=         GERENCIADOR DE TAREFA       =", "amarelo");
-            Cor("=======================================", "amarelo");
-        }
-    }
+   } 
 }

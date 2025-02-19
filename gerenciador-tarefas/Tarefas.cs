@@ -1,8 +1,10 @@
+using Layout;
+
 namespace Tarefas
 {
-    public class Tarefa
+    class Tarefa
     {
-        public int Id { get; set; }
+        public int Id { get; private set; }
         public string Descricao { get; set; }
         public bool Concluida { get; set; }
 
@@ -15,8 +17,7 @@ namespace Tarefas
 
         public void ExibirTarefa()
         {
-            string status = Concluida ? "(Concluída)" : "(Pendente)";
-            Console.WriteLine($"{Id} - {Descricao} {status}");
+            Formatacao.Cor($"\t[{(Concluida ? "X" : " ")}] ID: {Id} - {Descricao}", ConsoleColor.Yellow);
         }
     }
 }
